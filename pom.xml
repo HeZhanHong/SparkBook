@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Spark-book</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>01</module>
+        <module>02</module>
+        <module>03</module>
+        <module>04</module>
+        <module>12</module>
+        <module>13</module>
+        <module>14</module>
+        <module>05</module>
+        <module>06</module>
+        <module>07</module>
+        <module>08</module>
+        <module>09</module>
+        <module>sparkSQL</module>
+        <module>11Datasets</module>
+        <module>15Spark如何在集群上运行</module>
+        <module>15SparkJob</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_2.11</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+
+   <!--     <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>-->
+
+      <!--  <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.8</version>
+        </dependency>-->
+
+        <!--<dependency>
+            <groupId>graphframes</groupId>
+            <artifactId>graphframes</artifactId>
+            <version>0.4.0-spark2.1-s_2.11</version>
+        </dependency>-->
+    </dependencies>
+   <!-- <repositories>
+        &lt;!&ndash; list of other repositories &ndash;&gt;
+        <repository>
+            <id>SparkPackagesRepo</id>
+            <url>http://dl.bintray.com/spark-packages/maven</url>
+        </repository>
+    </repositories>-->
+
+
+</project>

@@ -1,0 +1,6 @@
+ 1,spark
+
+
+ val builder:Builder = SparkSession.builder()
+ builder.enableHiveSupport()
+
